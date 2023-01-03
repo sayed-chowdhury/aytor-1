@@ -1,0 +1,77 @@
+/* 
+Template Name: Aytor
+Version: 1,0,0
+Author: Aytor
+Author URL: #
+
+Table of Content 
+__________________________________________
+    => Home Page
+        1)
+        2)
+        3)
+        4)
+        5)
+*/
+/* Common Css Start */
+body{
+    font-family: "Roboto", sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a,button{
+    font-family: "Josefin Sans", sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+p,
+small,span,
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* Common Css End */
+/* Nav Section Css Start */
+nav #main_menu .nav-item a{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    color: #11161E ;
+    padding: 20px;
+}
+nav #main_menu #navbar_icon a{
+    height: ;
+    width: ;
+    padding: 15px;
+    color: #151A32;
+}
+nav #main_menu #navbar_icon ul li button{
+    position: relative;
+    background: none;
+    border: none;
+}
+nav #main_menu #navbar_icon ul li button span{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+    border-radius: 50%;
+    background: #FF6F61;
+    display: inline-block;
+    text-align: center;
+    line-height: 15px;
+    color:white;
+}
+/* Nav Section Css End */
+/*  Banner Css Start */
+#banner .slide .banner_slide_item{
+    height: 800px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+/*  BAnner Css End */
